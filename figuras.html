@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas | curso de JS</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras geometricas</h1>
+        <p>Este es el primer taller del curso practico de JS</p>
+    </header>
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form action="">
+            <label for="inputcuadrado">Escribe cuanto mide cada lado de tu cuadrado</label>
+            <input type="number" id="inputcuadrado">
+            <button type="button" onclick="calcularPerimetro()">Calcular perimetro</button>
+            <button type="button" onclick="calcularArea()">calcular area</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>calcula el area y perimetro de un triangulo isosceles</h2>
+        <form action="">
+            <label for="inputtriangulo1">Lados</label>
+            <input type="number" id="inputtriangulo1">
+            <br>
+            <label for="inputtriangulo3">base</label>
+            <input type="number" id="inputtriangulo3">
+            <br>
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcular perimetro</button>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular Area</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>calcula el area y circuferencia de un circulo</h2>
+        <form action="">
+            <label for="inputradio">Radio</label>
+            <input type="number" id="inputradio">
+
+            <button type="button" onclick="calcularCircuferencia()">Calcular circuferencia</button>
+            <button type="button" onclick="calcularAreaCirculo()">calcular area</button>
+        </form>
+    </section>
+    <script src="figuras.js"></script>
+</body>
+</html>
