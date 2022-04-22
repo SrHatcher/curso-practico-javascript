@@ -34,3 +34,23 @@ Honduras.push({
     name: "Diego",
     salary: 50,
 });
+
+Honduras.push({
+    name: "Carlos",
+    salary: 500,
+});
+
+Honduras.push({
+    name: "Pepe",
+    salary: 500000,
+});
+
+Honduras.push({
+    name: "azusa",
+    salary: 500,
+});
+
+Honduras.push({
+    name: "yui",
+    salary: 50,
+});

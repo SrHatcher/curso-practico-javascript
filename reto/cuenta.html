@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Cuenta</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="principal">
+        <div class="datos">
+            <div class="contenedor_datos">
+                <label for="valorCuenta">Bill</label>
+                <input type="number" id="valorCuenta">
+            </div>
+
+            <div class="contenedor_datos">
+                <label for="seleccionarTip">Select Tip %</label>
+                <div class="descuentos">
+                    <div class="caja"><p>5%</p></div>
+                    <div class="caja"><p>10%</p></div>
+                    <div class="caja"><p>15%</p></div>
+                    <div class="caja"><p>25%</p></div>
+                    <div class="caja"><p>50%</p></div>
+                    <div class="caja"><p>Custom</p></div>
+                </div>
+            </div>
+
+            <div class="contenedor_datos">
+                <label for="personasCantidad">Number of people</label>
+                <input type="number" id="personasCantidad">
+            </div>           
+        </div>
+        <div class="resumen">
+            <div class="contenedor_resumen">
+                <div class="izquierda">
+                    <p>Tip Amount</p>
+                    <p>/ person</p>
+                </div>
+                <div class="derecha">
+                    <p>$0.00</p>
+                </div>
+                
+            </div>
+            <div class="contenedor_resumen">
+                <div class="izquierda">
+                    <p>Total</p>
+                    <p>/ person</p>
+                </div>
+                <div class="derecha">
+                    <p>%0.00</p>
+                </div>
+            </div>
+            <div class="contenedor_datos_boton">
+                <input type="submit" value="Reset" class="boton">
+            </div>
+        </div>
+    </div>
+
+    <script src="cuenta.js"></script>
+</body>
+</html>
